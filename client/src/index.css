@@ -1,0 +1,376 @@
+#nav{
+    background-color: rgb(9, 9, 104);
+}
+#gennxt{
+    color: aliceblue;
+    font-size: larger;
+    font-weight: bolder;
+}
+.navlink{
+    color:aliceblue;
+    text-decoration: none;
+    margin-left: 3rem;
+}
+#z{
+    background-color: aliceblue;
+    border-radius: 4px;
+}
+#but{
+    color: aliceblue;
+}
+#logout:hover{
+    color: aliceblue;
+    background-color: rgb(29, 169, 212);
+    padding: 4px;
+    border-radius: 1rem;
+    transition: 0.2s;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.home{
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.mainhome{
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content:space-around;
+    width: 60rem;
+}
+.inhome{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content:space-between;
+    width: 50rem;
+}
+.inhome img{
+    width: 25rem;
+    height: 25rem;
+}
+.inhome span{
+     width: 15rem;
+}
+.pqr{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    height:15rem;
+    width: 25rem;
+}
+#join{
+    border-radius: 1rem;
+    color: aliceblue;
+    background-color: rgb(9, 9, 104);
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content:center;
+    width: 10rem;
+    height: 6rem;
+}
+#join:hover{
+    transform: scale(1.3);
+    transition: 0.3s;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 45rem;
+}
+.form h1{
+    margin-top: 1rem;
+}
+.formin img{
+    width: 25rem;
+    height: 25rem;
+}
+.formin{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    width: 70rem;
+}
+.forminin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30rem;
+    height: 35rem;
+    padding: 2rem;
+}
+.abc{
+    margin-top: 0.5rem;
+}
+#a{
+    margin-right: 1.8rem;
+}
+#b{
+    margin-right: 1.5rem;
+}
+#c{
+    margin-right: 0.84rem;
+}
+#d{
+    border-radius: 1rem;
+    margin-top: 1.5rem;
+    color: aliceblue;
+    background-color:rgb(9, 9, 104);
+    height: 2rem;
+    width: 10rem;
+}
+#d:hover{
+    transform: scale(1.3);
+    transition: 0.3s;
+}
+.regphoto{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    text-align: center;
+}
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    height: 40rem;
+}
+.loginin{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    width: 55rem;
+}
+.logininin{
+    border: 4px solid rgb(9, 9, 104);
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content:space-around;
+    padding-top: 2rem;
+    width: 22rem;
+    height: 20rem;
+}
+#e{
+    margin-right: 2rem;
+}
+#logbut{
+    border-radius: 1rem;
+    margin-bottom: 1.5rem;
+    color: aliceblue;
+    background-color:rgb(9, 9, 104);
+    height: 2.5rem;
+    width: 6rem;
+}
+#logbut:hover{
+    transform: scale(1.3);
+    transition: 0.3s;
+}
+.logphoto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.error{
+    color:rgb(9, 9, 104) ;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    height: 40rem;
+}
+#errorbut{
+    border-radius: 2rem;
+    color: aliceblue;
+    background-color: rgb(9, 9, 104) ;
+    margin-top: 1rem;
+    height: 3.5rem;
+    width: 15rem;
+}
+#errorbut:hover{
+    color: rgb(62, 62, 241);
+}
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.courses{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    height: 40rem;
+}
+.coursesin{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    width: 55rem;
+}
+.coursesright{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    height: 20rem;
+}
+.coursesright span{
+    color: rgb(8, 128, 184);
+}
+.coursesleft{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    height: 20rem;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.about{
+    height: 75rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-around;
+    text-align: center;
+}
+.gori{
+    border: 4px rgb(9, 9, 104) solid;
+    border-radius: 1rem;
+    height: 40rem;
+    width: 40rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-evenly;
+    text-align: center;
+}
+.gori img{
+    height: 20rem;
+    width: 15rem;
+}
+.gori img:hover{
+    border: 6px dotted rgb(9, 9, 104);
+    border-radius: 2rem;
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+.blue{
+    color: blue;
+    font-size: large;
+}
+.contact{
+    border: 4px rgb(9, 9, 104) solid;
+    border-radius: 1rem;
+    height: 20rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-around;
+    text-align: center;
+}
+.contact h3{
+    color:black;
+}
+.icon{
+    width: 12rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+    text-align: center;
+}
+.icon a i:hover{
+    transition: 0.4s;
+    transform: scale(1.5);
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.foot{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: aliceblue;
+    background-color: rgb(9, 9, 104) ;
+    height: 3rem;
+}
+
+/* MOBILE version>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+@media (max-width:700px){
+    .foot{
+        height: 5rem;
+    }
+    .inhome{
+        height: 40rem;
+        display: flex;
+        flex-direction:column-reverse;
+    }
+    .inhome img{
+        width: 15rem;
+        height:15rem
+    }
+    .form{
+        height: 62rem;
+    }
+    .formin{
+        flex-direction: column-reverse;
+    }
+    .regphoto img{
+        width: 15rem;
+        height: 15rem;
+    }
+    .login{
+        height: 63rem;
+    }
+    .loginin{
+        height: 42rem;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+    }
+    .logphoto img{
+        height: 15rem;
+        width: 15rem;
+    }
+    .gori{
+        width: 22rem;
+        height: 45rem;
+    }
+    .coursesin{
+        width: 23rem;
+    }
+}
