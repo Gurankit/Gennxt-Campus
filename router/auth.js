@@ -7,10 +7,6 @@ const authenticate = require("../middleware/authenticate");
 require('../db/conn');
 const User = require('../model/userschema');
 
-router.get('/', (req,res)=>{
-    res.send('Hello world from the server router js');
-});
-
 router.post('/register',(req,res)=>{
     const {name,email,phone,standard,password,cpassword,course} =req.body;
 
